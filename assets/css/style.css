@@ -1,0 +1,34 @@
+    /*Menu Walker*/
+    li{
+        list-style: none;
+    }
+    .current-item {
+        color: red !important;
+        background-color: #111148;
+        padding: .3rem;
+    }
+    
+    .icon {
+        width: 70px;
+        height: 70px;
+        float: left;
+        padding: 10px;
+        border: 4px solid darkcyan;
+        border-radius: 90px;
+        margin: 5px;
+        transition: all .3s ease-in-out;
+    }
+    
+    .icon:hover {
+      padding: 15px;
+      border: 8px solid red;
+    }
+    
+   .icon svg {
+        fill: red;
+        transition: all .3s ease-in-out;
+    }
+    
+      .icon svg:hover {
+        fill: blue;
+    }
